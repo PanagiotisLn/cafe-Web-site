@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#section1 {
+  background-image: url("./img/pexels-jason-villanueva.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  background-color: black;
+  padding-bottom: 20px;
+}
+#logo {
+  color: white;
+  max-height: fit-content;
+  font-size: 1.5rem;
+  padding-left: 30px;
+}
+ul {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  right: 0px;
+  padding-right: 30px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  display: flex;
+  padding: 5px 15px;
+  color: white;
+  border-bottom: 3px solid transparent;
+  transition: border ease-in-out 0.7s;
+}
+#home {
+  color: rgb(238, 238, 8);
+}
+li:hover {
+  color: rgb(221, 221, 22);
+  border-color: yellow;
+}
+li:active {
+  color: yellow;
+}
+
+#logo:hover {
+  color: rgb(133, 124, 124);
+}
+#name {
+  color: white;
+  position: absolute;
+  padding-left: 30%;
+  padding-top: 20%;
+}
+.descr {
+  color: white;
+  position: absolute;
+  padding-left: 20%;
+  padding-top: 24%;
+}
+
+#section2 {
+  height: 200px;
+  background: white;
+  box-sizing: border-box;
+  position: relative;
+}
+#section2 h1 {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+}
+
+/* CSS FOR MENU PAGE */
+#menu-photo {
+  position: relative;
+  height: 50vh;
+}
+#menu-photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#menu-photo h1 {
+  position: absolute;
+  bottom: 160px;
+  left: 40px;
+  color: white;
+}
+.section-menu {
+  padding: 10vh 20vw;
+}
+.snacks h1,
+.coffes h1 {
+  padding-bottom: 8vh;
+}
+.colmns {
+  display: flex;
+  color: black;
+}
+.col {
+  flex: 50%;
+}
+.snack-name {
+  display: inline-block;
+}
+.snack-price {
+  float: right;
+}
+.snack-description {
+  padding: 1vh 2vw 4vh 0;
+}
+#col2 {
+  padding-left: 10vh;
+}
+.coffes {
+  padding-top: 10vh;
+}
+.booking-section {
+  background-color: black;
+  color: white;
+  padding: 10vh 20vw;
+}
+.booking-section div,
+.booking-section h1 {
+  padding-bottom: 3vh;
+}
+.booking-section button {
+  background-color: white;
+  color: rgb(8, 7, 7);
+  padding: 10px 30px;
+  border-radius: 25px;
+  transition-duration: 0.5s;
+}
+.booking-section button:hover {
+  color: white;
+  background-color: rgb(31, 29, 29);
+}
+
+/* CSS FOR CONTACT US */
+.container {
+  display: flex;
+  margin-top: 200px;
+  padding-bottom: 60px;
+}
+.infos {
+  flex: 50%;
+  padding-bottom: 0;
+}
+.infos:first-child {
+  margin-left: 300px;
+}
+
+.infos img {
+  max-width: 100%;
+  object-position: center;
+}
+.contact-infos {
+  display: flex;
+}
+.info-col {
+  flex: 50%;
+}
+.info-col div {
+  padding-top: 40px;
+  font-size: 1.1em;
+}
+.info-col span {
+  display: block;
+}
+.more-infos {
+  background-color: #eee9e2;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* CSS FOR BOOK A TABLE PAGE */
+#contact-form {
+  background-color: #eee9e2;
+  width: 100vw;
+  height: 92.5vh;
+  font-size: 1.2rem;
+}
+#contact-form span {
+  display: block;
+  padding-left: 20vw;
+  padding-top: 25px;
+}
+#contact-form p {
+  padding: 0;
+  color: black;
+  padding-left: 20vw;
+  position: sticky;
+  display: block;
+  padding-top: 50px;
+}
+#contact-form h1 {
+  padding-left: 20vw;
+  padding-top: 100px;
+}
+#contact-form input {
+  font-size: 1rem;
+  margin-left: 20vw;
+  width: 500px;
+  height: 30px;
+  background-color: rgb(245, 245, 245);
+  border-style: none;
+  padding-left: 20px;
+}
+
+#contact-form textarea {
+  font-size: 1rem;
+  margin-left: 20vw;
+  background-color: rgb(245, 245, 245);
+  padding-left: 20px;
+}
+
+#contact-form button {
+  margin-left: 20vw;
+  margin-top: 20px;
+  display: block;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition-duration: 0.5s;
+}
+#contact-form button:hover {
+  transform: scale(1.15);
+}
+.booking-section a:hover {
+  color: white;
+}
